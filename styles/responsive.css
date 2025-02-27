@@ -1,0 +1,227 @@
+@media (max-width: 1130px) {
+    #myName {
+        font-size: 3rem;
+    }
+    
+    #imDeveloper {
+        font-size: 3rem;
+    }
+    
+    #textFace {
+        max-width: 550px;
+        font-size: 0.95rem;
+    }
+    .info-work-container .top {
+        flex-direction: column-reverse;
+    }
+    .info-work-container .top img {
+        max-width: unset;
+        width: 100%;
+    }
+}
+
+@media (max-width: 905px) {
+    .work-item:hover {
+        scale: 1;
+    }
+}
+
+@media (max-width: 870px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        min-height: 75px;
+        max-height: 75px;
+        padding: 10px 2rem;
+        border: none;
+    }
+
+    .links-header {
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .header-itens {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-face {
+        padding: 85px 65px 0 65px;
+    }
+
+    #btnMenu {
+        display: flex;
+    }
+    .container section.face {
+        padding: 2rem 0rem;
+    }
+}
+
+@media (max-width: 800px) {
+
+    #myName {
+        font-size: 2.5rem;
+    }
+    
+    #imDeveloper {
+        font-size: 2.5rem;
+    }
+    
+    #textFace {
+        max-width: 500px;
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 670px) {
+    .text-info-work {
+        font-size: .9rem;
+    }
+    .date-info-work {
+        font-size: .9rem;
+    }
+    .info-work-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 490px) {
+    .container section {
+        padding: 2rem 2rem;
+    }
+    .about {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem 2rem 6rem 2rem !important;
+    }
+    .cover {
+        min-height: 100%;
+        width: 100%;
+        max-height: unset;
+    }
+
+    .work-item img {
+        height: auto;
+        width: 100%;
+    }
+
+    .work-item .cover::before {
+        min-height: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 445px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        max-height: 65px;
+        min-height: 65px;
+        padding: 10px 2rem;
+    }
+
+    .logo-header {
+        height: 45px;
+        width: 45px;
+    }
+
+    #myName {
+        font-size: 2.2rem;
+    }
+
+    #imDeveloper {
+        font-size: 2.2rem;
+    }
+
+    #textFace {
+        max-width: 500px;
+        font-size: 0.65rem;
+    }
+}
+
+@media (max-width: 410px) {
+    #myName {
+        font-size: 2rem;
+    }
+
+    #imDeveloper {
+        font-size: 2rem;
+    }
+
+    #textFace {
+        max-width: 500px;
+        font-size: 0.65rem;
+    }
+    
+    .content-face button {
+        font-size: 0.8rem;
+        border-radius: .5em;
+    }
+
+    .content-face button::before {
+        top: -1.4em;
+        left: -1.4em;
+    }
+       
+    .content-face button::after {
+        left: calc(100% + 1.4em);
+        top: calc(100% + 1.4em);
+    }
+    .text-info-work {
+        font-size: .8rem;
+    }
+    .date-info-work {
+        font-size: .8rem;
+    }
+    .title-work-h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 385px) {
+
+    #myNameIs {
+        font-size: 0.8rem;
+    }
+
+    #myName {
+        font-size: 1.6rem;
+    }
+
+    #imDeveloper {
+        font-size: 1.6rem;
+    }
+
+    .content-face button {
+        font-size: 0.6rem;
+    }
+
+    .content-face {
+        padding: 85px 35px 0 35px;
+    }
+
+    .content-face button::before {
+        top: -1.9em;
+        left: -1.9em;
+    }
+       
+    .content-face button::after {
+        left: calc(100% + 1.9em);
+        top: calc(100% + 1.9em);
+    }
+
+    #textAbout {
+        font-size: .9rem;
+    }
+    .info-work-container .links a {
+        font-size: .65rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .info-work-container .top img {
+        display: none;
+    }
+}

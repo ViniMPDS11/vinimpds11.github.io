@@ -1,0 +1,7 @@
+* {
+    scrollbar-color: #4abca5 #0a1930;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}

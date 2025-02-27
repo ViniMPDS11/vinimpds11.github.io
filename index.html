@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+    <link rel="stylesheet" href="/styles/scrollbarStyle.css">
+
+    <title>Vinícius Matheus - Portfólio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="modal"></div>
+        <div class="info-work-container">
+            <div class="top">
+                <img src="./assets/images/digitalClock.png" alt="Imagem do projeto">
+                <div class="info-work">
+                    <div class="title-work">
+                        <h2 class="title-work-h2"></h2>
+                        <div class="close-modal">
+                            <div class="svg-icon x-icon"></div>
+                        </div>
+                    </div>
+                    <pre class="text-info-work"></pre>
+                    <p class="date-info-work"></p>
+                </div>
+            </div>
+            <div class="links">
+                <a target="_blank" id="accessProject">Acessar projeto</a>
+                <a target="_blank" id="accessRepository">Acessar repositório</a>
+            </div>
+
+        </div>
+        <header>
+            <div class="header-itens">
+                <div class="hamburger-menu">
+                    <div id="btnMenu">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <img src="assets/images/logo.png" class="logo-header" alt="Logo do cabeçalho">
+                </div>
+
+                <div class="links-header">
+                    <a href="#about">
+                        <p>01.</p>
+                        Sobre
+                    </a>
+                    <a href="#skills">
+                        <p>02.</p>
+                        Habilidades
+                    </a>
+                    <a href="#work">
+                        <p>03.</p>
+                        Projetos
+                    </a>
+                    <a href="#contact">
+                        <p>04.</p>
+                        Contato
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section class="face">
+            <div class="content-face">
+                <p id="myNameIs">Olá, meu nome é</p>
+                <h1 id="myName">Vinícius Matheus</h1>
+                <h1 id="imDeveloper">e sou um web desenvolvedor.</h1>
+                <a href="#about" class="about-btn">
+                    <button type="button">Confira meu portifólio</button>
+                </a>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="content hidden">
+                <h1>Sobre mim</h1>
+                <p id="textAbout">Sou apaixonado por tecnologia e design, criando soluções eficientes e experiências visuais atraentes. Tenho experiência com HTML, CSS e JavaScript, focado em interfaces responsivas e dinâmicas. Estou sempre aprendendo e aprimorando minhas habilidades para desenvolver projetos inovadores. Confira meu portfólio e entre em contato!</p>
+            </div>
+        </section>
+        <section id="skills" class="skills">
+            <div class="content hidden">
+                <h1>Habilidades</h1>
+                <div class="skills-items"></div>
+            </div>
+        </section>
+        <section id="work" class="work">
+            <div class="content hidden">
+                <h1>Projetos</h1>
+                <div class="works-items"></div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="content hidden">
+                <h1>Contato</h1>
+                <div class="links-contact">
+                    <div class="link-contact">
+                        <a target="_blank" class="box" href="mailto:vinimpdevs@gmail.com">
+                            <div class="svg-icon mail-icon"></div>
+                        </a>
+                        <a target="_blank" href="mailto:vinimpdevs@gmail.com" class="title-contact">E-mail</a>
+                        <a target="_blank" href="mailto:vinimpdevs@gmail.com" class="contact-name">vinimpdevs@gmail.com</a>
+                    </div>
+                    <div class="link-contact">
+                        <a target="_blank" class="box" href="https://api.whatsapp.com/send?phone=5511958709377">
+                            <div class="svg-icon phone-icon"></div>
+                        </a>
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=5511958709377" class="title-contact">Telefone</a>
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=5511958709377" class="contact-name">(11) 95870-9377</a>
+                    </div>
+                    <div class="link-contact">
+                        <a target="_blank" class="box" href="https://www.linkedin.com/in/viniciusmpds/">
+                            <div class="svg-icon linkedin-icon"></div>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/viniciusmpds/" class="title-contact">LinkedIn</a>
+                        <a target="_blank" href="https://www.linkedin.com/in/viniciusmpds/" class="contact-name">@viniciusmpds</a>
+                    </div>
+                    <div class="link-contact">
+                        <a target="_blank" class="box" href="https://github.com/ViniMPDS11">
+                            <div class="svg-icon github-icon"></div>
+                        </a>
+                        <a target="_blank" href="https://github.com/ViniMPDS11" class="title-contact">GitHub</a>
+                        <a target="_blank" href="https://github.com/ViniMPDS11" class="contact-name">@ViniMPDS11</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <button type="button">
+                <div class="svg-icon to-top"></div>
+            </button>
+        </footer>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

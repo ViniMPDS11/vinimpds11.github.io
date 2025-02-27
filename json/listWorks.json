@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "work": "Digital Clock",
+        "image": "./assets/images/digitalClock.png",
+        "textInfo": "O projeto \"Digital Clock\" é uma aplicação que apresenta um relógio digital com horário e data atualizados em tempo real.\nIniciei este projeto com o objetivo de aprimorar minhas habilidades em manipulação do DOM e atualização dinâmica de elementos na tela utilizando JavaScript. Além disso, aproveitei para explorar estilizações no CSS e garantir um layout responsivo.\n\nFerramentas usadas:\n\n• HTML;\n• CSS;\n• JavaScript.",
+        "day": 9,
+        "mouth": "Fevereiro",
+        "year": 2025,
+        "githubLink": "https://github.com/ViniMPDS11/digitalclock",
+        "hostedProjectLink": "https://vinimpds11.github.io/digitalclock/"
+    },
+    {
+        "id": 2,
+        "work": "Olá, Mundo!",
+        "image": "./assets/images/olaMundo.png",
+        "textInfo": "O projeto \"Olá, Mundo!\" é o meu espaço pessoal, onde compartilho parte da minha jornada e conhecimentos.\nIniciei este projeto com o objetivo de explorar o uso do pacote react-router-dom, aprofundando-me assim no desenvolvimento com React. O projeto foi construído com base em um curso da Alura.\n\nFerramentas usadas:\n\n&bull; HTML;\n&bull; CSS;\n&bull; JavaScript;\n&bull; React.",
+        "day": 7,
+        "mouth": "Julho",
+        "year": 2024,
+        "githubLink": "https://github.com/ViniMPDS11/olamundo",
+        "hostedProjectLink": "https://vinimpds11.github.io/olamundo/"
+    }
+]

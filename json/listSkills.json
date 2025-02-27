@@ -1,0 +1,27 @@
+[
+    {
+        "skill": "HTML5",
+        "class": "html",
+        "svgUrl": "./assets/svg/html.svg"
+    },
+    {
+        "skill": "CSS3",
+        "class": "css",
+        "svgUrl": "./assets/svg/css.svg"
+    },
+    {
+        "skill": "JavaScript",
+        "class": "javascript",
+        "svgUrl": "./assets/svg/javascript.svg"
+    },
+    {
+        "skill": "React.js",
+        "class": "react",
+        "svgUrl": "./assets/svg/react.svg"
+    },
+    {
+        "skill": "Figma",
+        "class": "figma",
+        "svgUrl": "./assets/svg/figma.svg"
+    }
+]
