@@ -466,6 +466,7 @@ section .content {
     display: flex;
     flex-direction: row;
     gap: 4rem;
+    row-gap: 5.5rem;
     flex-wrap: wrap;
     justify-content: center;
 }
