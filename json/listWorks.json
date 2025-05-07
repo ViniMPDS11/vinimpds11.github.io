@@ -20,5 +20,16 @@
         "year": 2024,
         "githubLink": "https://github.com/ViniMPDS11/olamundo",
         "hostedProjectLink": "https://vinimpds11.github.io/olamundo/"
+    },
+    {
+        "id": 3,
+        "work": "AfterMusic",
+        "image": "./assets/images/aftermusic.png",
+        "textInfo": "Este projeto é uma aplicação web que interage com a Spotify Web API para fornecer aos usuários uma interface intuitiva e visualmente atraente para:\n\n&bull; Pesquisar por artistas, músicas e álbuns\n&bull; Visualizar as faixas mais tocadas e os artistas mais mencionados em uma playlist global de destaque\n&bull; Explorar a discografia de um artista, incluindo faixas de destaque e detalhes dos álbuns\n&bull; Acessar letras de músicas usando a API do Lrclib\n\nO principal objetivo desta aplicação é criar uma experiência personalizada de descoberta musical, facilitando a exploração do trabalho dos artistas em uma plataforma central, elegante e responsiva. Foi desenvolvida com forte foco em UI/UX, organização de código e integração com APIs.",
+        "day": 5,
+        "mouth": "Maio",
+        "year": 2025,
+        "githubLink": "https://github.com/ViniMPDS11/aftermusic",
+        "hostedProjectLink": "https://aftermusic.up.railway.app/"
     }
 ]

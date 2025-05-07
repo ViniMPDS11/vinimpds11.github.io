@@ -23,5 +23,15 @@
         "skill": "Figma",
         "class": "figma",
         "svgUrl": "./assets/svg/figma.svg"
+    },
+    {
+        "skill": "Node.js",
+        "class": "nodejs",
+        "svgUrl": "./assets/svg/nodejs.svg"
+    },
+    {
+        "skill": "SQL",
+        "class": "sql",
+        "svgUrl": "./assets/svg/sql.svg"
     }
 ]
